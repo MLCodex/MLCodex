@@ -1,0 +1,32 @@
+site_name: MLCodex
+
+nav:
+  - Home: index.md
+  - Statistics:
+    - One Way ANOVA: 'Statistics/One-Way-ANOVA.md'
+  - Machine Learning:
+    - Different types of distances: 'Machine Learning/different-distance-calculations.md'
+
+theme:
+  name: material
+  palette:
+    primary: purple
+    accent: deep purple
+  features:
+    - content.code.copy
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  -  pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
