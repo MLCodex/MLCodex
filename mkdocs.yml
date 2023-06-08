@@ -4,14 +4,16 @@ nav:
   - Home: index.md
   - Statistics:
     - One Way ANOVA: 'Statistics/One-Way-ANOVA.md'
+    - Basic guide of Matrix Algebra: 'Statistics/Matrix.md'
   - Machine Learning:
     - Different types of distances: 'Machine Learning/different-distance-calculations.md'
 
 theme:
   name: material
+  logo: assets/logo/logo-6.png
   palette:
-    primary: purple
-    accent: deep purple
+    primary: black
+    accent: amber
   features:
     - content.code.copy
 
