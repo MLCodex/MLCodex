@@ -7,6 +7,7 @@ nav:
     - Basic guide of Matrix Algebra: 'Statistics/Matrix.md'
   - Machine Learning:
     - Different types of distances: 'Machine Learning/different-distance-calculations.md'
+    - Cross Validation: 'Machine Learning/cross-validation.md'
 
 theme:
   name: material
