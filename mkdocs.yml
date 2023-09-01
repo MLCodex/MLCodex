@@ -8,6 +8,8 @@ nav:
   - Machine Learning:
     - Different types of distances: 'Machine Learning/different-distance-calculations.md'
     - Cross Validation: 'Machine Learning/cross-validation.md'
+    - Data Leakage: 'Machine Learning/data-leakage.md'
+    - Batch Gradient Descent: "Machine Learning/batch-gradient-descent.md"
 
 theme:
   name: material
